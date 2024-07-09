@@ -1,0 +1,32 @@
+.square {
+    width: 100px;
+    height: 100px;
+    background: white;
+    border: 1px solid #000;
+    font-size: 48px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    border-radius: 50%;
+  }
+  
+  .square .circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    height: 90%;
+    border-radius: 50%;
+    background: white;
+  }
+  
+  .tick {
+    color: green;
+  }
+  
+  .cross {
+    color: rgb(0, 0, 0);
+  }
+  
